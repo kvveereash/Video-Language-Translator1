@@ -1,0 +1,121 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Large files and models
+models/
+pretrained_models/
+*.pth
+*.pt
+*.h5
+*.ckpt
+*.bin
+
+# Media files
+*.mp4
+*.avi
+*.mov
+*.wav
+*.mp3
+*.m4a
+
+# Credentials
+credentials/
+*.key
+*.pem
+*.env
+config.json
+
+# Logs and temp files
+*.log
+logs/
+temp/
+tmp/
+
+# Dataset
+dataset/
+data/
+*.zip
+*.tar
+*.gz
+
+# Virtual Environment
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Project specific
+uploads/*
+!uploads/.gitkeep
+outputs/*
+!outputs/.gitkeep
+
+# Media files
+media/*
+!media/test_videos/.gitkeep
+!media/test_audio/.gitkeep
+media/test_videos/*
+!media/test_videos/test_video.mp4
+media/test_audio/*
+!media/test_audio/test_audio.wav
+*.mp4
+*.wav
+*.mp3
+*.avi
+*.mov
+ffmpeg.exe
+ffprobe.exe
+
+# Installers
+*.exe
+*.msi
+
+# Cache
+.cache/
+.pytest_cache/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+
+# Node
+node_modules/
+/frontend/build
+
+# Redis
+*.rdb 
